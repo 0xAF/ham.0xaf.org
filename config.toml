@@ -1,16 +1,84 @@
 # The URL the site will be built for
 base_url = "https://ham.0xaf.org"
+title = "Начинаещи радиолюбители"
+description = "Информация за начинаещи радиолюбители в България"
+default_language = "bg"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
 
 # Whether to build a search index to be used later on by a JavaScript library
-build_search_index = true
+build_search_index = false
+
+theme = "hermit_zola"
+
+# Whether to generate a RSS feed automatically
+generate_feed = true
+feed_filename = "rss.xml"
+
+# The number of articles to include in the RSS feed. Will include all items if
+# not set (the default).
+# rss_limit = 20
+
+# The taxonomies to be rendered for that site and their configuration
+# Example:
+#     taxonomies = [
+#       {name = "tags", rss = true}, # each tag will have its own RSS feed
+#       {name = "categories", paginate_by = 5},  # 5 items per page for a term
+#       {name = "authors"}, # Basic definition: no RSS or pagination
+#     ]
+#
+taxonomies = [
+           {name = "tags", rss = true}
+]
+
+# A list of glob patterns specifying asset files to ignore when
+# processing the content directory.
+# Defaults to none, which means all asset files are copied over to the public folder.
+# Example:
+#     ignored_content = ["*.{graphml,xlsx}", "temp.*"]
+ignored_content = []
+
+# A list of directories to search for additional `.sublime-syntax` files in.
+extra_syntaxes = []
+
 
 [markdown]
 # Whether to do syntax highlighting
 # Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
-highlight_code = true
+highlight_code = false
 
 [extra]
 # Put all your custom variables here
+toc=true
+home_subtitle = "Информация за начинаещи радиолюбители в България"
+footer_copyright = ' &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+
+hermit_menu = [
+    { link = "/posts", name = "публикации" },
+    { link = "/about", name = "за сайта" }
+]
+
+hermit_social = [
+    # { name = "facebook", link = "https://facebook.com/slechev" },
+    # { name = "email", link = "mailto:af+spam0xaf.org" }
+]
+
+
+[extra.highlightjs]
+enable = true
+clipboard = true
+theme = "vs2015"
+
+[extra.disqus]
+enable = false
+# Take this from your Disqus account
+shortname = "my-supa-dupa-blog"
+
+[extra.author]
+name = "Stanislav Lechev [0xAF] - LZ2SLL"
+email = "af@0xaf.org"
+
+[extra.google_analytics]
+enable = false
+id = "UA-4XXXXXXX-X"
