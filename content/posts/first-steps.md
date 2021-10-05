@@ -15,7 +15,7 @@ tags = ["изпит", "тест", "първи-стъпки"]
 Ето накратко стъпките, които да ви водят:
  - Прочетете [техническите изисквания](https://crc.bg/files/techicheski_iziskvania_radiolub_2019-01-18_30.01.2019.pdf).
  - Въпросите върху които ще държите изпит може да намерите [тук](https://crc.bg/bg/rubriki/144/radiolubitelski-klas-2).
-Запознайте се и с трите документа, тъй като в изпита се държи върху тези въпроси.
+Запознайте се и с трите документа, тъй като изпита се държи върху въпроси от тези документи.
  - Онлайн тестове за изпита може да намерите [тук](http://testove.repeaters.bg/exam).
  - Датите и условията за явяване на изпит може да намерите [тук](https://crc.bg/bg/rubriki/146/data-i-mjasto-na-provejdane-na-sledvashtija-izpit-za-radiolubiteli).
  - Попълвате и подавате [заявление](https://crc.bg/files/URChS/Radioamateur/Zaiavlenie_radiolub_2019&1.pdf) за явяване на изпит.
