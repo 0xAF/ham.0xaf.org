@@ -1,7 +1,7 @@
 # The URL the site will be built for
 base_url = "https://ham.0xaf.org"
-title = "Начинаещи радиолюбители"
-description = "Информация за начинаещи радиолюбители в България"
+title = "Радиолюбители в България"
+description = "Полезна информация за радиолюбителите в България"
 default_language = "bg"
 
 # Whether to automatically compile all Sass files in the sass directory
@@ -51,12 +51,12 @@ highlight_code = false
 [extra]
 # Put all your custom variables here
 toc=true
-home_subtitle = "Информация за начинаещи радиолюбители в България"
+home_subtitle = "Полезна информация за начинаещи радиолюбители"
 footer_copyright = ' &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
 
 hermit_menu = [
-    { link = "/posts", name = "публикации" },
-    { link = "/about", name = "за сайта" }
+    { link = "/about", name = "за сайта" },
+    { link = "/posts", name = "публикации" }
 ]
 
 hermit_social = [
