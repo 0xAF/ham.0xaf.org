@@ -56,7 +56,8 @@ footer_copyright = ' &#183; <a href="https://creativecommons.org/licenses/by-nc/
 
 hermit_menu = [
     { link = "/about", name = "за сайта" },
-    { link = "/posts", name = "публикации" }
+    { link = "/posts", name = "публикации" },
+    { link = "/antennas", name = "антени" }
 ]
 
 hermit_social = [
