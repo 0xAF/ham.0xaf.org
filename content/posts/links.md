@@ -8,7 +8,7 @@ tags = ["връзки"]
 
 Полезни връзки
 
- - [Технически изисквания за осъществяване на електронни съпбщения](https://crc.bg/files/techicheski_iziskvania_radiolub_2019-01-18_30.01.2019.pdf)
+ - [Технически изисквания за осъществяване на електронни съобщения](https://crc.bg/files/techicheski_iziskvania_radiolub_2019-01-18_30.01.2019.pdf)
  - [Подготовка за изпит (клас 2)](https://crc.bg/bg/rubriki/144/radiolubitelski-klas-2)
  - [Онлайн тестове](http://testove.repeaters.bg/exam)
  - [Проверка на регистрираните инициали](http://crc.bg:8080/ords/f?p=923:1666:3912971223959038)
