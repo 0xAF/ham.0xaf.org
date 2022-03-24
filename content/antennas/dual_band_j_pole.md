@@ -1,7 +1,7 @@
 +++
 title = "dual band j pole [английски]"
 date = 2021-10-17
-weight = 20
+weight = 30
 [taxonomies]
 tags = ["антени"]
 +++
